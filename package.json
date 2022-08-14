@@ -1,0 +1,17 @@
+{
+  "name": "ton-src-verifier",
+  "version": "1.0.0",
+  "bin": {
+    "ton-src-verifier": "index.js"
+  },
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "ton": "^12.0.1"
+  },
+  "prettier": {
+    "printWidth": 120
+  }
+}
