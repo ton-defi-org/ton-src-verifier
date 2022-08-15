@@ -51,6 +51,6 @@ boc>B "${b64OutFile}" B>file`;
       console.log(`${outMsg}\n❌ Hashes do not match`);
     }
   } finally {
-    fs.rm(TEMP_DIR, { force: true, recursive: true });
+    await fs.rm(TEMP_DIR, { force: true, recursive: true });
   }
 })();
